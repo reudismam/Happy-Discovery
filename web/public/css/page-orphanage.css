@@ -162,9 +162,10 @@ main {
    column-gap: 2rem;
 }
 
+/*
 .open-details {
     display: block;
-}
+}*/
 
 .open-details div {
     padding: 3.2rem 2.4rem;
