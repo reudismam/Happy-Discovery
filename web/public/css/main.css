@@ -5,13 +5,14 @@
 :root {
     /*font-size: 10px;*/
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 1000%) no-repeat;
     color: white;
     font-size: 1.8rem;
+    background-color: #Ebf2f5;
 }
 
 body, input, button, textarea {
@@ -20,59 +21,4 @@ body, input, button, textarea {
     line-height: 1;
 }
 
-#page-landing {
-    min-height: 100vh;
-    text-align: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.location, h1, .visit p{
-    height: 16vh;
-}
-
-#container {
-    margin: auto;
-    width: 90%;
-}
-
-.visit a{
-    width: 8rem;
-    height: 8rem;
-    background: #ffd666;
-    border: none;
-    border-radius: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: auto;
-
-    transition: background 200ms;
-}
-
-.visit a:hover {
-    background: #96feff;
-}
-
-#logo {
-    animation-delay: 50ms;
-}
-
-#location {
-    animation-delay: 100ms;
-}
-
-main h1 {
-    animation-delay: 150ms;
-}
-
-.visit p {
-    animation-delay: 200ms;
-}
-
-.visit a {
-    animation-delay: 250ms;
-}
