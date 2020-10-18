@@ -10,9 +10,20 @@ server
 
 .set('view engine', 'hbs')
 
+let accessCount = 0;
+
 server.get('/', pages.index)
 server.get('/orphanage', pages.orphanage)
 server.get('/orphanages', pages.orphanages)
 server.get('/create-orphanage', pages.createOrphanage)
+server.get('/novoacesso', (req, res) => {
+    accessCount++;
+})
+
+server.get('/acessos', (req, res) => {
+    return res.render('acessos', {accessCount});
+})
+
+
 
 server.listen(5500);
