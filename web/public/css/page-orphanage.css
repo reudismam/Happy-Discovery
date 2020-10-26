@@ -120,3 +120,7 @@ main {
     border-radius: 20px;
 }
 
+
+.open-on-weekends.open {
+    background-color: blue;
+}
